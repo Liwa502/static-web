@@ -1,0 +1,104 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000; /* black background */
+    color: #fff;            /* white text */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Main Sections */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.content-section {
+    margin-bottom: 50px;
+}
+
+.content-section h2 {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+/* Lists */
+ul {
+    margin: 15px 0 15px 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Aside Quote */
+aside.quote {
+    border-left: 4px solid #fff;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 50px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+}
